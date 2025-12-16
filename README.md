@@ -1,3 +1,7 @@
+
+Exam link: https://www.cisco.com/site/us/en/learn/training-certifications/exams/devasc.html
+
+
 The Cisco DevNet Associate DEVASC (200-901) [to be renamed Automating Networks Using Cisco Platforms (200-901 CCNAAUTO) in Feb 2026] exam covers software development and design topics for applications with Cisco platforms. Here are the main topic areas:
 
 **1. Software Development and Design (15%)**
