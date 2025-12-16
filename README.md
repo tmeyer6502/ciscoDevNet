@@ -1,4 +1,13 @@
 
+**Cisco DevNet Associate (DEVASC) Exam 200-901**
+
+Below are some resources for studying for this test.  Each subdirectory should contain some learning resources and places to practice the skills needed to pass this thing.
+
+Even if we don't actually take the test, knowing all this stuff is certainly a step in the right direction for a career in network automation.
+
+
+
+
 Exam link: https://www.cisco.com/site/us/en/learn/training-certifications/exams/devasc.html
 
 
