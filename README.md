@@ -6,10 +6,9 @@ Below are some resources for studying for this test.  Each subdirectory should c
 Even if we don't actually take the test, knowing all this stuff is certainly a step in the right direction for a career in network automation.
 
 
-
-
 Exam link: https://www.cisco.com/site/us/en/learn/training-certifications/exams/devasc.html
 
+Study Guide: https://www.youtube.com/watch?v=AhPloufPDH8
 
 The Cisco DevNet Associate DEVASC (200-901) [to be renamed Automating Networks Using Cisco Platforms (200-901 CCNAAUTO) in Feb 2026] exam covers software development and design topics for applications with Cisco platforms. Here are the main topic areas:
 
