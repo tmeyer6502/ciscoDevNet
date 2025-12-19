@@ -1,6 +1,6 @@
-Software Development and Design (15%)
+## Software Development and Design (15%) ##
 
-Compare data formats (XML, JSON, YAML)
+### Compare data formats (XML, JSON, YAML) ###
 
   https://en.wikipedia.org/wiki/XML
 
@@ -22,4 +22,5 @@ Compare software development methods (agile, lean, waterfall)
 
 
 Explain the benefits of organizing code into methods/functions, classes, and modules
+
 
