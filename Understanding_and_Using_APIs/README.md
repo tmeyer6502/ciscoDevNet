@@ -18,4 +18,5 @@ Usually the 200-class codes mean "OK," the 300-class codes mean "Something has m
 - 500 Internal Server Error: This generic error code is often used when an unexpected problem occurs within the server that prevents it from fulfilling the request.
 
 
-Troubleshoot a problem given the HTTP response code, request and API documentation
+#### Troubleshoot a problem given the HTTP response code, request and API documentation
+
