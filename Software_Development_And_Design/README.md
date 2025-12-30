@@ -55,6 +55,10 @@ Waterfall: Gates, timelines, milestones, phased development
 
 ### Explain the benefits of organizing code into methods/functions, classes, and modules ###
 
+1.  Reusable
+2.  Better organized
+3.  Easier to debug
+4.  Clear definition of responsbilities (decopuling)
 
 
 
