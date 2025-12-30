@@ -42,9 +42,19 @@ Test-driven development (TDD) is a software development methodology where you wr
 
 ### Compare software development methods (agile, lean, waterfall) ###
 
+Here's a good piece of reading: https://www.overcode.tech/blog/software-development-methodologies
 
+Agile:https://en.wikipedia.org/wiki/Agile_software_development
+
+The Agile Manifesto: https://agilemanifesto.org/
+
+
+Lean: It centers around waste elimination, learning, optimization, and delivering in small batches.
+
+Waterfall: Gates, timelines, milestones, phased development
 
 ### Explain the benefits of organizing code into methods/functions, classes, and modules ###
+
 
 
 
