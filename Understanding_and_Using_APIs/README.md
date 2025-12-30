@@ -1,4 +1,39 @@
-## Goals
+## Understanding and Using APIs 
+
+This might be useful reading/skimming: https://swagger.io/specification/
+
+The idea here is that you can use different "REST" (REpresentational State Transfer) operations to query or update server-side data. An HTTP request operates over TCP/IP connection and includes the operation as well as header data, in the body of the request.
+
+There are four common REST operations you should know:
+
+- GET: retrieve an item (often called an object)
+- POST: place (send) an object
+- DELETE: delete an object
+- PUT: update an object
+
+GET operations are easily visible in your browser.  Every request to a webpage that you make (by typing in the URL bar) is a GET.  Have you ever see a URL like http://example.com/people?id=35 ?   The 'id=35' part identifies a name/value pair sent to the server--it will 'GET' the person with the ID of 35, and send that information back to the client.
+
+PUT/POST/DELETE usually don't have easily identifiable 'tells' like that, because they usually place their payload in the BODY of the request. For REST API construction, they're usually JSON.  JSON stands for "JavaScript Object Notation" and should remind you a little bit of other formats like XML or YAML. JSON consists of easily readable name/value pairs.  JSON objects can be nested.  
+
+```
+{
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    }
+}
+```
+In the above example, we see a "Person" object with three fields: name, age, and address.  The 'address' field in turn, has four subfields.
+
+A very common operation in REST applications is to POST JSON like the above, which the server will then use to construct a "Person" object and store it in the database -- returning the ID of the new object to the user.  A subsequent GET using that ID will return the same JSON response, which can then be parsed by the client.
+
+
+
+### Goals
 
 #### Construct a REST API request to accomplish a task given API documentation
 
@@ -19,4 +54,5 @@ Usually the 200-class codes mean "OK," the 300-class codes mean "Something has m
 
 
 #### Troubleshoot a problem given the HTTP response code, request and API documentation
+
 
