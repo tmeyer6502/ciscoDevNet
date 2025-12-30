@@ -2,6 +2,8 @@
 
 This might be useful reading/skimming: https://swagger.io/specification/
 
+This is also worth investigating--from the guy that started it all: https://home.cs.colorado.edu/~kena/classes/7818/f08/lectures/lecture_9_fielding_disserta.pdf
+
 The idea here is that you can use different "REST" (REpresentational State Transfer) operations to query or update server-side data. An HTTP request operates over TCP/IP connection and includes the operation as well as header data, in the body of the request.
 
 There are four common REST operations you should know:
@@ -54,5 +56,6 @@ Usually the 200-class codes mean "OK," the 300-class codes mean "Something has m
 
 
 #### Troubleshoot a problem given the HTTP response code, request and API documentation
+
 
 
