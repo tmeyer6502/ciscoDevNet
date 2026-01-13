@@ -1,9 +1,9 @@
 import requests
 import json
 
-"""
-Retrieve a single post by ID
-"""
+
+# Retrieve a single post by ID
+
 BASE_URL = "https://jsonplaceholder.typicode.com"
 post_id = 1
 
