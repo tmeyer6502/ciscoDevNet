@@ -49,6 +49,7 @@ Usually the 200-class codes mean "OK," the 300-class codes mean "Something has m
 
 
 - 200 OK: The most common response code, indicating that the request was successful and the server has returned a normal response.
+- 300 Moved: The requested resource has moved (could be a redirect)
 - 400 Bad Request: Maybe your JSON is malformed or the URL is incoherent.
 - 401 Unauthorized: When a client attempts to access a protected resource without providing the necessary authentication or authorization information.
 - 404 Not Found: A classic error, this code is returned when the requested resource cannot be found on the server-side.
@@ -56,6 +57,7 @@ Usually the 200-class codes mean "OK," the 300-class codes mean "Something has m
 
 
 #### Troubleshoot a problem given the HTTP response code, request and API documentation
+
 
 
 
