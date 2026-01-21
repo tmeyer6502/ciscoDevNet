@@ -5,9 +5,8 @@ import json
 
 BASE_URL = "https://jsonplaceholder.typicode.com"
 
-"""
-Create a new post using POST request
-"""
+# Create a new post using POST request
+
 print("Making POST request to create a new post...")
 
 # setup the new post data
