@@ -1,0 +1,114 @@
+[
+  {
+    "if-name": "GigabitEthernet0/0",
+    "type": "physical",
+    "ip-address": "192.168.1.1",
+    "subnet-mask": "255.255.255.0",
+    "description": "WAN Interface - Internet Gateway",
+    "nat-direction": "outside",
+    "icmp-redirects": false,
+    "icmp-unreachable": true,
+    "proxy-arp": false,
+    "verify-unicast-source": true,
+    "subinterface-vlan": null
+  },
+  {
+    "if-name": "GigabitEthernet0/1",
+    "type": "physical",
+    "ip-address": "10.0.1.1",
+    "subnet-mask": "255.255.255.0",
+    "description": "LAN Interface - Corporate Network",
+    "nat-direction": "inside",
+    "icmp-redirects": true,
+    "icmp-unreachable": true,
+    "proxy-arp": true,
+    "verify-unicast-source": false,
+    "subinterface-vlan": null
+  },
+  {
+    "if-name": "GigabitEthernet0/2",
+    "type": "physical",
+    "ip-address": "10.0.2.1",
+    "subnet-mask": "255.255.255.0",
+    "description": "DMZ Interface - Public Servers",
+    "nat-direction": "dmz",
+    "icmp-redirects": false,
+    "icmp-unreachable": true,
+    "proxy-arp": false,
+    "verify-unicast-source": true,
+    "subinterface-vlan": null
+  },
+  {
+    "if-name": "GigabitEthernet0/1.10",
+    "type": "subinterface",
+    "ip-address": "10.10.10.1",
+    "subnet-mask": "255.255.255.0",
+    "description": "VLAN 10 - Engineering Department",
+    "nat-direction": "inside",
+    "icmp-redirects": true,
+    "icmp-unreachable": true,
+    "proxy-arp": false,
+    "verify-unicast-source": false,
+    "subinterface-vlan": {
+      "encap-type": "dot1Q",
+      "vlan-id": 10,
+      "encapsulated-vlan": "VLAN0010"
+    }
+  },
+  {
+    "if-name": "GigabitEthernet0/1.20",
+    "type": "subinterface",
+    "ip-address": "10.10.20.1",
+    "subnet-mask": "255.255.255.0",
+    "description": "VLAN 20 - Sales Department",
+    "nat-direction": "inside",
+    "icmp-redirects": true,
+    "icmp-unreachable": true,
+    "proxy-arp": false,
+    "verify-unicast-source": false,
+    "subinterface-vlan": {
+      "encap-type": "dot1Q",
+      "vlan-id": 20,
+      "encapsulated-vlan": "VLAN0020"
+    }
+  },
+  {
+    "if-name": "Loopback0",
+    "type": "loopback",
+    "ip-address": "1.1.1.1",
+    "subnet-mask": "255.255.255.255",
+    "description": "Loopback Interface - Router ID",
+    "nat-direction": null,
+    "icmp-redirects": false,
+    "icmp-unreachable": false,
+    "proxy-arp": false,
+    "verify-unicast-source": false,
+    "subinterface-vlan": null
+  },
+  {
+    "if-name": "Tunnel0",
+    "type": "tunnel",
+    "ip-address": "172.16.0.1",
+    "subnet-mask": "255.255.255.252",
+    "description": "VPN Tunnel to Branch Office",
+    "nat-direction": null,
+    "icmp-redirects": false,
+    "icmp-unreachable": true,
+    "proxy-arp": false,
+    "verify-unicast-source": false,
+    "subinterface-vlan": null
+  },
+  {
+    "if-name": "GigabitEthernet0/3",
+    "type": "physical",
+    "ip-address": null,
+    "subnet-mask": null,
+    "description": "Unused Interface",
+    "nat-direction": null,
+    "icmp-redirects": false,
+    "icmp-unreachable": false,
+    "proxy-arp": false,
+    "verify-unicast-source": false,
+    "subinterface-vlan": null
+  }
+]
