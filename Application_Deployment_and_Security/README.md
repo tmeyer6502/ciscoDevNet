@@ -19,6 +19,21 @@ See https://learningnetwork.cisco.com/s/devnet-associate-exam-topics?ccid=devnet
 
 4.6 Interpret contents of a Dockerfile
 
+See example in this directory
+
+Here's a short example:
+
+'''
+
+FROM python:3.9-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+CMD ["python", "app.py"]
+
+'''
+
 4.7 Utilize Docker images in local developer environment
 
 4.8 Identify application security issues related to secret protection, encryption (storage and transport), and data handling
