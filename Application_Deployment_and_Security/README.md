@@ -47,40 +47,45 @@ CMD ["python", "app.py"]
 
 4.10 Describe top OWASP threats (such as XSS, SQL injections, and CSRF)
 
-XSS (Cross-Site Scripting)
+#### XSS (Cross-Site Scripting) ####
 
 XSS is a type of web application security vulnerability that allows an attacker to inject malicious code into a website, which is then executed by the victim's browser. This can lead to various types of attacks, such as:
 
-Stealing sensitive information like login credentials or credit card numbers
-Hijacking user sessions and taking control of their accounts
-Displaying unwanted content, such as spam links or malware
+* Stealing sensitive information like login credentials or credit card numbers
+* Hijacking user sessions and taking control of their accounts
+* Displaying unwanted content, such as spam links or malware
+
 XSS vulnerabilities typically occur when user input is not properly sanitized or validated, allowing an attacker to inject malicious JavaScript code into the website.
 
-SQL Injection
+#### SQL Injection ####
 
 SQL injection (SQLi) is a type of web application security vulnerability that allows an attacker to inject malicious SQL code into a database. This can lead to various types of attacks, such as:
 
-Stealing sensitive information like user passwords or credit card numbers
-Modifying or deleting data in the database
-Escalating privileges to gain unauthorized access to the database
+* Stealing sensitive information like user passwords or credit card numbers
+* Modifying or deleting data in the database
+* Escalating privileges to gain unauthorized access to the database
+
 SQL injection vulnerabilities typically occur when user input is not properly sanitized or validated, allowing an attacker to inject malicious SQL code into a vulnerable web application.
 
-CSRF (Cross-Site Request Forgery)
+#### CSRF (Cross-Site Request Forgery) ####
 
 CSRF is a type of web application security vulnerability that allows an attacker to trick users into performing unauthorized actions on their behalf. This can lead to various types of attacks, such as:
 
-Performing unintended or unauthorized actions, like transferring funds or changing settings
-Stealing sensitive information like login credentials or credit card numbers
+* Performing unintended or unauthorized actions, like transferring funds or changing settings
+* Stealing sensitive information like login credentials or credit card numbers
+
 CSRF vulnerabilities typically occur when a web application does not properly validate and verify requests, allowing an attacker to exploit the trust between the user and the website.
 
 Common attack vectors for CSRF include:
 
-Phishing emails or messages that trick users into clicking on malicious links
-Malicious JavaScript code injected into websites through XSS attacks
+* Phishing emails or messages that trick users into clicking on malicious links
+* Malicious JavaScript code injected into websites through XSS attacks
+
 To protect against these types of attacks, it's essential to implement robust security measures in your web applications, such as:
 
-Validating and sanitizing user input to prevent injection attacks (XSS, SQLi)
-Implementing secure authentication and authorization mechanisms to prevent unauthorized access (CSRF)
+* Validating and sanitizing user input to prevent injection attacks (XSS, SQLi)
+* Implementing secure authentication and authorization mechanisms to prevent unauthorized access (CSRF)
+
 Using Content Security Policy (CSP) to restrict the types of scripts that can be executed by a browser (XSS)
 
 
