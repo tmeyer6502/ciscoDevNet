@@ -3,7 +3,7 @@
 Taken from: https://learningnetwork.cisco.com/s/devnet-associate-exam-topics
 
 
-.1 Construct a Python script that uses a Cisco SDK given SDK documentation
+3.1 Construct a Python script that uses a Cisco SDK given SDK documentation
 
 3.2 Describe the capabilities of Cisco network management platforms and APIs (Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, and NSO)
 
@@ -21,6 +21,8 @@ Taken from: https://learningnetwork.cisco.com/s/devnet-associate-exam-topics
 
 3.9 Construct code to perform a specific operation based on a set of requirements and given API reference documentation such as these:
 
-    3.9.a Obtain a list of network devices by using Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, or NSO
-    3.9.b Manage spaces, participants, and messages in Webex
-    3.9.c Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
+3.9.a Obtain a list of network devices by using Meraki, Cisco DNA Center, ACI, Cisco SD-WAN, or NSO
+
+3.9.b Manage spaces, participants, and messages in Webex
+
+3.9.c Obtain a list of clients / hosts seen on a network using Meraki or Cisco DNA Center
