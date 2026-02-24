@@ -1,5 +1,5 @@
 
-**Cisco DevNet Associate (DEVASC) Exam 200-901**
+**Cisco Automation Associate (DEVASC) Exam 200-901**
 
 Below are some resources for studying for this test.  Each subdirectory should contain some learning resources and places to practice the skills needed to pass this thing.
 
@@ -14,7 +14,7 @@ Questions about test: https://www.ciscoprep.com/2021/11/12/cisco-200-901-devasc-
 
 Online Python Interpreter: https://www.online-python.com/
 
-The Cisco DevNet Associate DEVASC (200-901) [to be renamed Automating Networks Using Cisco Platforms (200-901 CCNAAUTO) in Feb 2026] exam covers software development and design topics for applications with Cisco platforms. Here are the main topic areas:
+The Cisco Automation Associate DEVASC (200-901) [to be renamed Automating Networks Using Cisco Platforms (200-901 CCNAAUTO) in Feb 2026] exam covers software development and design topics for applications with Cisco platforms. Here are the main topic areas:
 
 **1. Software Development and Design (15%)**
 - Compare data formats (XML, JSON, YAML)
